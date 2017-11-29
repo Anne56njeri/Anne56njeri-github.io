@@ -100,4 +100,13 @@ li a:hover {
 }
 .active{
   float:left;
+  margin-right: 0px;
+
 }
+ #navigation li {
+   display: inline;
+   
+ }
+
+
+ }
