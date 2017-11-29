@@ -68,25 +68,36 @@ ul{
   overflow: hidden;
   background-color:purple;
 }
-li{
-  float: left;
-}
+
 
 }
 li a{
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration:  none;
   bo
 
 }
-/* Change the link color to #111 (black) on hover */
+/* Change the link color to (gray) on hover */
 li a:hover {
-    background-color:gray;
+    background-color:darkred;
+    text-decoration: none;
 }
 
-.link{
+.links{
   margin-left: 40px;
+}
+
+.links a{
+  display: block;
+}
+.meat{
+  float: left;
+
+
+}
+.active{
+  float:left;
 }
